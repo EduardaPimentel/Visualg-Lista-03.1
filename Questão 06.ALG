@@ -11,10 +11,10 @@ Var
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-   escreva("Informe a temperatura em fahrenheit:")
+   escreval("Informe a temperatura em fahrenheit:")
    Leia(temf)
    
    temc <- (temf - 32) * 5 / 9
-   escreva("em celsius equivale á: ", temc)
+   escreval("em celsius equivale á: ", temc)
 
 Fimalgoritmo

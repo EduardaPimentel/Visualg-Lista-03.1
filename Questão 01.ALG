@@ -16,7 +16,7 @@ Inicio
    escreval("informe o seu sexo:")
    leia(sexo)
    
-   escreval("Olá! ",nome, " Seja bem-vindo(a)!")
+   escreval("Olá! ",nome, ", Seja bem-vindo(a)!")
    escreva("O sexo informado é ", sexo)
    
 Fimalgoritmo

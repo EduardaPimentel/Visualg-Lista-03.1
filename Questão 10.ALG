@@ -5,19 +5,22 @@ Algoritmo "Questão 10"
 // x tempo em dias).
 Var
 // Seção de Declarações das variáveis 
-   prestacao,taxa, temp, formula :real
+   valor,taxa,dias,formula :real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
   escreva("Informe o valor da prestação: ")
-  leia(prestacao)
+  leia(valor)
   
   escreva("Informe a taxa da prestação: ")
   leia(taxa)
   
   escreva("Informe o tempo de pagamento, em dias: ")
-  leia(temp)
-  formula <- prestacao + (prestacao * (taxa/100)* temp
+  leia(dias)
+
+formula <- valor + (valor * (taxa/100)* dias)
+  escreval("O valor de atraso da prestação é:",formula)
+  
   
   
 Fimalgoritmo

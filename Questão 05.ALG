@@ -8,9 +8,9 @@ Var
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-  escreva("Informe o valor do sálario:")
+  escreva("Informe o valor do sálario: ")
   Leia(Salario)
   
   Acrescimo<- Salario + (salario * 0.15)
-  escreva("Valor do sálario co 15% de acrescimo: ", Acrescimo)
+  escreva("Valor do sálario com 15% de acrescimo: ", Acrescimo)
 Fimalgoritmo

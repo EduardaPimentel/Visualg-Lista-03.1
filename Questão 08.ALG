@@ -14,7 +14,7 @@ Inicio
   escreva("Informe qual será a distância pecorrida,em Km: ")
   leia(KM)
   
-  escreva("Informe quanto seu automóvel consome por cada Km: ")
+  escreva("Informe quantos litros seu automóvel consome por cada Km: ")
   leia(con)
 
   lit <- km/con

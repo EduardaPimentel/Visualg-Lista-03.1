@@ -5,7 +5,7 @@ Algoritmo "Questão 2"
 //  b) Resultado de suas multiplicações
 Var
 // Seção de Declarações das variáveis 
-     Valor1, Valor2,Valor3,Valor4,soma,mutiplicacao: inteiro
+     Valor1, Valor2,Valor3,Valor4,soma,mut: real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
@@ -17,12 +17,15 @@ Inicio
 
    escreval("informe o valor 3")
    Leia(valor3)
+
+   escreval("informe o valor 4")
+   Leia(valor4)
    
    soma <- valor1 + valor2 + valor3 + valor4
    
-   mutiplicacao <- valor1 * valor2 * valor3 * valor4
+   mut <- valor1 * valor2 * valor3 * valor4
    
    escreval("A soma dos valores inseridos é: ",soma)
-   escreval("A mutiplicação dos valores inseridos é: ",mutiplicacao)
+   escreval("A mutiplicação dos valores inseridos é: ",mut)
     
 Fimalgoritmo

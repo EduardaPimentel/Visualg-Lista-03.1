@@ -8,7 +8,7 @@ Var
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-  escreva("Insira o valor de dólares:")
+  escreva("Insira o valor de dólares: ")
   Leia(dolar)
   
   reais <- dolar * 1.72
